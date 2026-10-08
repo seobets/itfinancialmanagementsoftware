@@ -224,3 +224,255 @@ footer {
     padding: 70px 0;
   }
 }
+
+/* =========================
+   SECTION BACKGROUNDS
+========================= */
+
+.section {
+  padding: 90px 0;
+  background: #ffffff;
+}
+
+.alt-section {
+  background: #f5f7fb;
+}
+
+.tools-section {
+  background: #eef3f9;
+}
+
+/* Optional: make the final FAQ section feel clean */
+#faq {
+  background: #ffffff;
+}
+
+/* =========================
+   INTRO TEXT
+========================= */
+
+.section-intro {
+  max-width: 850px;
+  margin: 0 0 40px 0;
+  color: #4b5563;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* =========================
+   TOOLS SECTION
+========================= */
+
+.tool-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.tool-card {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  background: #ffffff;
+  border: 1px solid #dbe3ef;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+}
+
+.featured-tool {
+  border: 2px solid #0f2b5b;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 12px 30px rgba(15, 43, 91, 0.08);
+}
+
+.tool-number {
+  width: 58px;
+  height: 58px;
+  min-width: 58px;
+  border-radius: 50%;
+  background: #0f2b5b;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.tool-content h3 {
+  margin: 0 0 14px 0;
+  font-size: 1.7rem;
+  line-height: 1.2;
+  color: #0f172a;
+}
+
+.tool-content p {
+  margin: 0 0 16px 0;
+  color: #334155;
+  line-height: 1.8;
+}
+
+.tool-label {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #0f2b5b;
+  background: #e8f0ff;
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+.text-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-weight: 600;
+  color: #0f2b5b;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.editorial-note {
+  margin-top: 28px;
+  padding: 18px 20px;
+  border-left: 4px solid #0f2b5b;
+  background: rgba(255, 255, 255, 0.8);
+  color: #475569;
+  font-size: 0.98rem;
+  line-height: 1.7;
+  border-radius: 10px;
+}
+
+/* =========================
+   COMPARISON TABLE
+========================= */
+
+.comparison-table {
+  margin-top: 35px;
+  border: 1px solid #dbe3ef;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.comparison-row {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr 1.4fr;
+  gap: 20px;
+  padding: 18px 22px;
+  border-bottom: 1px solid #e5eaf2;
+}
+
+.comparison-row:last-child {
+  border-bottom: none;
+}
+
+.comparison-header {
+  background: #0f2b5b;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* =========================
+   IMPLEMENTATION STEPS
+========================= */
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-top: 40px;
+}
+
+.step {
+  background: #ffffff;
+  border: 1px solid #dbe3ef;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+}
+
+.step span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background: #0f2b5b;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.step h3 {
+  margin: 0 0 12px 0;
+  color: #0f172a;
+}
+
+.step p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.7;
+}
+
+/* =========================
+   FAQ
+========================= */
+
+.faq-item {
+  margin-top: 18px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #dbe3ef;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.03);
+}
+
+.faq-item h3 {
+  margin: 0 0 10px 0;
+  color: #0f172a;
+  font-size: 1.15rem;
+}
+
+.faq-item p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+  .comparison-row {
+    grid-template-columns: 1fr;
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .tool-card {
+    flex-direction: column;
+  }
+
+  .tool-number {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+  }
+
+  .tool-content h3 {
+    font-size: 1.4rem;
+  }
+}
