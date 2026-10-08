@@ -82,12 +82,4 @@
 
     </div>
 
-    <p class="editorial-note">
-      Ordering reflects the editorial structure of this guide rather than
-      an independent market ranking. Buyers should evaluate platforms
-      against their own requirements.
-    </p>
-
-  </div>
-
 </section>
