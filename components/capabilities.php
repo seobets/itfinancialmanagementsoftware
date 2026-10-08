@@ -1,57 +1,79 @@
 <section id="capabilities" class="section alt-section">
+
   <div class="container">
 
-    <h2>What does ITFM software do?</h2>
+    <p class="eyebrow">Core Capabilities</p>
+
+    <h2>What Should ITFM Software Do?</h2>
 
     <div class="cards">
 
       <article class="card">
         <h3>Cost Visibility</h3>
         <p>
-          Understand how technology spending is distributed across
-          applications, infrastructure, departments, and services.
+          Understand technology spending across applications,
+          infrastructure, cloud, vendors and business services.
         </p>
       </article>
 
       <article class="card">
         <h3>Cost Allocation</h3>
         <p>
-          Allocate shared technology costs to the business units,
-          products, or services consuming them.
+          Distribute shared technology costs across departments,
+          products, services and business units.
         </p>
       </article>
 
       <article class="card">
-        <h3>Budgeting & Forecasting</h3>
+        <h3>Budgeting</h3>
         <p>
-          Plan future technology spending and compare budgets with
-          actual costs.
+          Build and manage technology budgets using structured
+          financial and operational data.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Forecasting</h3>
+        <p>
+          Model expected technology costs and identify potential
+          budget variances before they occur.
         </p>
       </article>
 
       <article class="card">
         <h3>Showback & Chargeback</h3>
         <p>
-          Show business units what their technology consumption costs.
+          Communicate the cost of technology consumption to internal
+          customers and business units.
         </p>
       </article>
 
       <article class="card">
         <h3>Technology Cost Modeling</h3>
         <p>
-          Connect raw financial data with technology resources and
-          business services.
+          Connect raw financial expenses with technology resources,
+          services and business outcomes.
         </p>
       </article>
 
       <article class="card">
-        <h3>Decision Support</h3>
+        <h3>Scenario Planning</h3>
         <p>
-          Give CIOs and finance leaders better information for
-          technology investment decisions.
+          Model the financial impact of technology investment,
+          transformation and optimization decisions.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Reporting & Analytics</h3>
+        <p>
+          Give finance and technology leaders a common view of
+          technology economics.
         </p>
       </article>
 
     </div>
+
   </div>
+
 </section>

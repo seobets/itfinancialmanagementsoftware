@@ -1,23 +1,32 @@
 <section id="what-is-itfm" class="section">
+
   <div class="container narrow">
 
-    <h2>What is IT Financial Management?</h2>
+    <p class="eyebrow">ITFM Fundamentals</p>
+
+    <h2>What Is IT Financial Management Software?</h2>
 
     <p>
-      IT Financial Management, often shortened to ITFM, is the practice
-      of managing the financial side of technology.
+      IT Financial Management software, commonly called ITFM software,
+      helps organizations understand and manage the financial side of
+      technology.
     </p>
 
     <p>
-      Large organizations spend money across infrastructure, software,
-      cloud services, employees, vendors, applications, and business
-      services.
+      Technology spending is often distributed across cloud platforms,
+      infrastructure, applications, software licences, employees,
+      vendors and shared services. Without a structured financial model,
+      it can be difficult for executives to understand where money is
+      being spent and what business outcomes that spending supports.
     </p>
 
     <p>
-      ITFM software helps finance and technology teams understand where
-      that money goes and what business value it supports.
+      ITFM software brings financial and technology data together so
+      CIOs, CFOs and IT finance teams can improve cost transparency,
+      allocation, budgeting, forecasting and technology investment
+      decisions.
     </p>
 
   </div>
+
 </section>

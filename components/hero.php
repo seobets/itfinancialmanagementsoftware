@@ -1,20 +1,31 @@
 <section class="hero">
+
   <div class="container">
 
-    <p class="eyebrow">IT Financial Management</p>
+    <p class="eyebrow">
+      ITFM SOFTWARE & METHODOLOGY
+    </p>
 
     <h1>
-      What is IT Financial Management Software and Why it is important?
+      IT Financial Management Software: A Guide for CIOs and CFOs
     </h1>
 
     <p class="hero-text">
-      IT Financial Management software helps organizations understand,
-      manage, allocate, forecast, and communicate the cost of technology.
+      Learn how IT Financial Management software helps organizations
+      understand, allocate, forecast and govern technology spending —
+      and how to evaluate the right ITFM platform for your organization.
     </p>
 
-    <a class="button" href="#what-is-itfm">
-      Learn the basics
-    </a>
+    <div class="hero-actions">
+      <a class="button" href="#buyers-guide">
+        Explore the Buyer's Guide
+      </a>
+
+      <a class="button secondary-button" href="#what-is-itfm">
+        Learn About ITFM
+      </a>
+    </div>
 
   </div>
+
 </section>
