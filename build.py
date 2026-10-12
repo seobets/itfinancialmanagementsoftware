@@ -30,6 +30,60 @@ def read_post(file_path):
 
     return metadata, html_content
 
+def build_blog_index(posts):
+    template = Path("templates/blog-index.html").read_text(
+        encoding="utf-8"
+    )
+
+    posts = sorted(
+        posts,
+        key=lambda post: post["date"],
+        reverse=True
+    )
+
+    cards = []
+
+    for post in posts:
+        title = post["title"]
+        slug = post["slug"]
+        description = post["description"]
+        category = post.get("category", "ITFM")
+
+        card = f"""
+        <article class="blog-card">
+          <p class="blog-category">{category}</p>
+
+          <h2>
+            <a href="/blog/{slug}/">
+              {title}
+            </a>
+          </h2>
+
+          <p>
+            {description}
+          </p>
+
+          <a class="text-link" href="/blog/{slug}/">
+            Read article →
+          </a>
+        </article>
+        """
+
+        cards.append(card)
+
+    output_html = template.replace(
+        "{{posts}}",
+        "\n".join(cards)
+    )
+
+    output_file = OUTPUT_DIR / "index.html"
+
+    output_file.write_text(
+        output_html,
+        encoding="utf-8"
+    )
+
+    print("Built: /blog/")
 
 def build_post(file_path, template):
     metadata, html_content = read_post(file_path)
@@ -119,6 +173,7 @@ def main():
         build_post(post_file, template)
 
     build_sitemap(all_posts)
+    build_blog_index(all_posts)
 
     print("Build complete.")
 
