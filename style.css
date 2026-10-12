@@ -574,3 +574,163 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================
+   HOMEPAGE — LATEST ARTICLES
+========================================= */
+
+.latest-articles-section {
+  background: #ffffff;
+  padding: 100px 0;
+}
+
+.latest-articles-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 45px;
+}
+
+.latest-articles-header > div {
+  max-width: 760px;
+}
+
+.latest-articles-header .section-intro {
+  margin-bottom: 0;
+}
+
+.articles-view-all {
+  flex-shrink: 0;
+  color: #0f2b5b;
+  font-weight: 700;
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #0f2b5b;
+}
+
+.articles-view-all:hover {
+  opacity: 0.7;
+}
+
+
+/* CARD GRID */
+
+.latest-articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+
+/* CARD */
+
+.latest-article-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+
+  padding: 32px;
+
+  background: #f7f9fc;
+
+  border: 1px solid #dbe3ef;
+  border-radius: 18px;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.latest-article-card:hover {
+  transform: translateY(-5px);
+  border-color: #b7c5da;
+  box-shadow: 0 16px 35px rgba(15, 43, 91, 0.09);
+}
+
+
+/* CATEGORY */
+
+.article-category {
+  margin: 0 0 18px;
+
+  color: #52647d;
+
+  font-size: 0.75rem;
+  font-weight: 700;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+
+/* TITLE */
+
+.latest-article-card h3 {
+  margin: 0 0 18px;
+
+  font-size: 1.45rem;
+  line-height: 1.3;
+}
+
+.latest-article-card h3 a {
+  color: #0b1930;
+  text-decoration: none;
+}
+
+.latest-article-card h3 a:hover {
+  color: #0f3975;
+}
+
+
+/* DESCRIPTION */
+
+.article-description {
+  margin: 0 0 30px;
+
+  color: #475569;
+
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+
+/* LINK */
+
+.article-link {
+  margin-top: auto;
+
+  color: #0f2b5b;
+
+  font-size: 0.95rem;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+.article-link:hover {
+  text-decoration: underline;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+  .latest-articles-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .latest-articles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .latest-article-card {
+    min-height: auto;
+  }
+
+}

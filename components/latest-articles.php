@@ -1,20 +1,34 @@
-<section class="section alt-section">
+<section class="section latest-articles-section">
 
   <div class="container">
 
-    <p class="eyebrow">Latest Insights</p>
+    <div class="latest-articles-header">
 
-    <h2>Latest ITFM Articles</h2>
+      <div>
+        <p class="eyebrow">Latest Insights</p>
 
-    <p class="section-intro">
-      Practical guidance for CIOs, CFOs and IT finance teams working with
-      IT Financial Management, FinOps and technology cost management.
-    </p>
+        <h2>Latest ITFM Articles</h2>
 
-    <div class="blog-grid">
+        <p class="section-intro">
+          Practical guidance for CIOs, CFOs and IT finance teams working with
+          IT Financial Management, FinOps and technology cost management.
+        </p>
+      </div>
 
-      <article class="blog-card">
-        <p class="blog-category">IT Financial Management</p>
+      <a class="articles-view-all" href="/blog/">
+        View all articles →
+      </a>
+
+    </div>
+
+
+    <div class="latest-articles-grid">
+
+      <article class="latest-article-card">
+
+        <p class="article-category">
+          IT Financial Management
+        </p>
 
         <h3>
           <a href="/blog/what-is-it-financial-management/">
@@ -22,22 +36,26 @@
           </a>
         </h3>
 
-        <p>
-          Learn how ITFM helps organizations understand, allocate and manage
-          technology costs.
+        <p class="article-description">
+          Learn how ITFM helps organizations understand, allocate and
+          manage technology costs.
         </p>
 
         <a
-          class="text-link"
+          class="article-link"
           href="/blog/what-is-it-financial-management/"
         >
           Read article →
         </a>
+
       </article>
 
 
-      <article class="blog-card">
-        <p class="blog-category">Methodologies</p>
+      <article class="latest-article-card">
+
+        <p class="article-category">
+          Methodologies
+        </p>
 
         <h3>
           <a href="/blog/itfm-vs-finops/">
@@ -45,22 +63,26 @@
           </a>
         </h3>
 
-        <p>
+        <p class="article-description">
           Understand where ITFM and FinOps differ, where they overlap
-          and how they work together.
+          and how the two disciplines work together.
         </p>
 
         <a
-          class="text-link"
+          class="article-link"
           href="/blog/itfm-vs-finops/"
         >
           Read article →
         </a>
+
       </article>
 
 
-      <article class="blog-card">
-        <p class="blog-category">Buyer's Guide</p>
+      <article class="latest-article-card">
+
+        <p class="article-category">
+          Buyer's Guide
+        </p>
 
         <h3>
           <a href="/blog/how-to-choose-itfm-software/">
@@ -68,25 +90,20 @@
           </a>
         </h3>
 
-        <p>
-          A practical guide for evaluating ITFM platforms, capabilities
-          and implementation requirements.
+        <p class="article-description">
+          A practical framework for evaluating ITFM platforms,
+          capabilities and implementation requirements.
         </p>
 
         <a
-          class="text-link"
+          class="article-link"
           href="/blog/how-to-choose-itfm-software/"
         >
           Read article →
         </a>
+
       </article>
 
-    </div>
-
-    <div style="margin-top: 30px;">
-      <a class="button" href="/blog/">
-        View all articles
-      </a>
     </div>
 
   </div>
