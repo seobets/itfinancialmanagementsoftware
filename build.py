@@ -1,6 +1,7 @@
 from pathlib import Path
 import markdown
 import yaml
+from datetime import date
 
 CONTENT_DIR = Path("content/blog")
 TEMPLATE_FILE = Path("templates/article.html")
@@ -78,3 +79,35 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+BASE_URL = "https://itfinancialmanagementsoftware.com"
+
+
+def build_sitemap(posts):
+    urls = [
+        f"{BASE_URL}/",
+        f"{BASE_URL}/blog/",
+    ]
+
+    for metadata in posts:
+        slug = metadata["slug"]
+        urls.append(f"{BASE_URL}/blog/{slug}/")
+
+    sitemap = ['<?xml version="1.0" encoding="UTF-8"?>']
+    sitemap.append(
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+    )
+
+    for url in urls:
+        sitemap.append("  <url>")
+        sitemap.append(f"    <loc>{url}</loc>")
+        sitemap.append("  </url>")
+
+    sitemap.append("</urlset>")
+
+    Path("sitemap.xml").write_text(
+        "\n".join(sitemap),
+        encoding="utf-8"
+    )
+
+    print("Built: /sitemap.xml")
