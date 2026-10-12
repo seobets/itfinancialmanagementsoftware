@@ -11,6 +11,7 @@
       <a href="#capabilities">Capabilities</a>
       <a href="#buyers-guide">Buyer's Guide</a>
       <a href="#tools">Software</a>
+      <a href="/blog/">Blog</a>
     </nav>
 
   </div>

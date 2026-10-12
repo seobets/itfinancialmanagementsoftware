@@ -12,6 +12,7 @@
   <?php include 'components/tools.php'; ?>
   <?php include 'components/comparison.php'; ?>
   <?php include 'components/implementation.php'; ?>
+  <?php include 'components/latest-articles.php'; ?>
   <?php include 'components/faq.php'; ?>
 </main>
 
